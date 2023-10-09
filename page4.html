@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>June's</title>
+    <link rel="icon" href="img/bitbug_favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/page-4.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+
+</head>
+
+<body>
+    <!-- ocean背景 -->
+    <video autoplay muted loop class="bgvideo" src="img/ocean-2.mp4"></video>
+    <div class="box-1 mainbox">
+        <div class="photo-box">
+            <div class="photo-item animate__animated animate__fadeIn wow"></div>
+            <div class="photo-item animate__animated animate__fadeIn wow"></div>
+            <div class="photo-item animate__animated animate__fadeIn wow">
+                <h2>The</h2>
+            </div>
+            <div class="photo-item animate__animated animate__fadeIn wow">
+                <h2>Ocean</h2>
+                <p>"Look at the distance, such as a pair of picture the quiet sea, there are several sailing sporadic,
+                    flocks
+                    of seabirds,as if time stood still."</p>
+            </div>
+            <div class="photo-item animate__animated animate__fadeIn wow"></div>
+            <div class="photo-item animate__animated animate__fadeIn wow"></div>
+        </div>
+    </div>
+
+    <div class="text1  animate__animated animate__fadeInUp wow">
+        <div class="textline ">"No
+            <span class="t1">water</span> <span class="t2">no life,</span> <span class="t3">no</span>blue no<span class="t4">green."——</span> Sylvia <span class="t5">Earle</span></div>
+    </div>
+
+    <div class="box-2 mainbox">
+        <div class="picbox a">
+            <div class="mypics b1 animate__animated animate__fadeInLeft wow">
+                <img src="img/eco1.jpg">
+                <h3>Industrial plants and chimneys</h3>
+            </div>
+            <div class="mypics b2 animate__animated animate__fadeInLeft wow"">
+                <img src=" img/eco2.jpg">
+                <h3>Plastic waste and underwater waste</h3>
+            </div>
+            <div class="mypics b3 animate__animated animate__fadeInLeft wow"">
+                <img src=" img/eco3.jpg">
+                <h3>Nuclear contamination in the ocean</h3>
+            </div>
+            <div class="mypics b4 animate__animated animate__fadeInLeft wow"">
+                <img src=" img/eco4.jpg">
+                <h3>The sea otter</h3>
+            </div>
+            <div class="mypics b5 animate__animated animate__fadeInLeft wow"">
+                <img src=" img/eco5.jpg">
+                <h3>Gentoo penguins</h3>
+            </div>
+            <div class="mypics b6 animate__animated animate__fadeInLeft wow"">
+                <img src=" img/eco6.jpg">
+                <h3>Smiling Dolphin</h3>
+            </div>
+            <div class="mypics b7 animate__animated animate__fadeInLeft wow"">
+                <img src=" img/eco7.jpg">
+                <h3>Clownfish</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 侧边栏 -->
+    <div class="side-shell animate__animated animate__bounceInRight wow">
+        <a href="#" class="shell-box">
+            <i class="iconfont icon-storage"></i>
+            <span>List</span>
+        </a>
+        <a href="index.html" class="shell-box">
+            <i class="iconfont icon-store"></i>
+            <span>Start</span>
+        </a>
+        <a href="page2.html" class="shell-box">
+            <i class="iconfont icon-subscriptions"></i>
+            <span>Enjoy</span>
+        </a>
+        <a href="page3.html" class="shell-box">
+            <i class="iconfont icon-face"></i>
+            <span>Blog</span>
+        </a>
+        <a href="page4.html" class="shell-box">
+            <i class="iconfont icon-collections"></i>
+            <span>Pictures</span>
+        </a>
+        <a href="#" class="shell-box" onmouseover="showQR();" onmouseout="hiddeQR();">
+            <i class="iconfont icon-gradient"></i>
+            <span>QR code</span>
+        </a>
+        <a href="#" class="shell-box">
+            <i class="iconfont icon-presenttoall"></i>
+            <span>up up</span>
+        </a>
+    </div>
+    <div class="qr" id="qrbox"></div>
+
+</body>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<!-- 显示二维码 -->
+<script>
+
+    function $(id) {
+        return document.getElementById(id);
+    }
+    function showQR() {
+        $("qrbox").style.display = "block";
+    }
+    function hiddeQR() {
+        $("qrbox").style.display = "none";
+    }
+</script>
+
+</html>

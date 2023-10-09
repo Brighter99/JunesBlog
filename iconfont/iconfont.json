@@ -1,0 +1,58 @@
+{
+  "id": "4275087",
+  "name": "june's",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "489993",
+      "name": "collections",
+      "font_class": "collections",
+      "unicode": "eae7",
+      "unicode_decimal": 60135
+    },
+    {
+      "icon_id": "490097",
+      "name": "face",
+      "font_class": "face",
+      "unicode": "eb49",
+      "unicode_decimal": 60233
+    },
+    {
+      "icon_id": "490197",
+      "name": "gradient",
+      "font_class": "gradient",
+      "unicode": "eba9",
+      "unicode_decimal": 60329
+    },
+    {
+      "icon_id": "490509",
+      "name": "present_to_all",
+      "font_class": "presenttoall",
+      "unicode": "ecba",
+      "unicode_decimal": 60602
+    },
+    {
+      "icon_id": "490670",
+      "name": "subscriptions",
+      "font_class": "subscriptions",
+      "unicode": "ed2e",
+      "unicode_decimal": 60718
+    },
+    {
+      "icon_id": "490681",
+      "name": "storage",
+      "font_class": "storage",
+      "unicode": "ed39",
+      "unicode_decimal": 60729
+    },
+    {
+      "icon_id": "490682",
+      "name": "store",
+      "font_class": "store",
+      "unicode": "ed3a",
+      "unicode_decimal": 60730
+    }
+  ]
+}
